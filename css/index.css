@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/*Container Primario*/    
+    .container-principal div {
+        background: #000000
+    }
+    .container-principal span {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #ba7f10;
+        gap: .2rem;
+    }
+    span h2 {
+        font-size: 2.5rem;
+    }
+    .Seta-baixo {
+        height: 100px;
+        position: relative;
+        animation: mymove 1s infinite;
+    }
+    @keyframes mymove {
+        from {top: 20px;}
+        to {top: 50px;}
+      }
+/*Container Primario*/  
+/*ContainerCasa*/
+.ContainerCasa {
+    width: 100%;
+    height: 85vh;
+    background: linear-gradient(45deg, black 858px, #fff 45px);
+}
+    .VideoSomos {
+        width: 100%;
+        border-radius: 15px;
+    }
+    .Video {
+        width: 20%;
+    }
+    .QuemSomos {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .textoSomos {
+        width: 50%;
+        padding: 5rem 3rem 5rem 1.5rem;
+        background: #000;
+        color: #ba7f10;
+        border-radius: 0px 15px 15px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: .8rem;
+        box-shadow: 2px 2px 2px 2px #ba7f10;
+    }
+    .tituloEquipe h2 {
+        color: #ba7f10;
+    }
+/*ContainerCasa*/
+/*containerEquipe*/
+    .containerEquipe {
+        height: 100vh;
+        background: url(https://i.pinimg.com/originals/4a/93/09/4a93096ea45d5f3126e6803d8517afd6.gif);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .sessaoequipe {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #000000;
+    }
+    .slider-container {
+        height: 50vh !important;
+    }
+    .carrossel {
+        position: relative;
+        width: 50%;
+    }
+    .ImgCarrossel {
+        object-fit: cover !important;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        opacity: 1;
+        display: block;
+        width: 90%;
+        border-radius: 10%;
+        border: .2rem solid #ba7f10;
+        -webkit-transform: scale(.9);
+        transform: scale(.9);
+    }
+
+      .carrossel:hover .ImgCarrossel {
+        opacity: 0.3;
+      }
+
+/*containerEquipe*/
+/*Container Projetos*/
+    .bx-chevrons-down {
+        font-size: 2rem;
+    }
+    .setas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+    }
+    .reto {
+        width: 250px;
+        background: #7a5208;
+        height: .1rem;
+    }
+    .container-projetos {
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(125deg, black 180px, white 100px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        color: #7a5208;
+        gap: 1rem;
+    }
+    .sessaoProjetos {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .titulo h1 {
+        /*webkit-filter: drop-shadow(15px 10px 5px rgba(96, 18, 18));
+        filter: drop-shadow(15px 10px 5px rgba(96, 18, 18));*/
+    }
+    .textoProjetos {
+        width: 22%;
+    }
+    .textoProjetos h2 {
+        -webkit-filter: drop-shadow(15px 10px 5px rgb(255, 255, 255));
+        filter: drop-shadow(15px 10px 5px rgba(255, 255, 255, 0.109));
+    }
+/*Container Projetos*/    
+/*containerGaleria*/
+    .containerGaleria {
+        width: 100%;
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        background: #000;
+    }
+    .ImgTattoo {
+        width: 24.74%;
+        height: 310px;
+        cursor: pointer;
+        transition: all .5s;
+    }
+    .ImgTattoo:hover {
+        border-radius: 100%;
+    }
+    .tituloEquipe h2 {
+        text-align: center;
+    }
+/*containerGaleria*/

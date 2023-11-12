@@ -1,0 +1,51 @@
+.contaierFooterCima {
+    width: 100%;
+    height: 60vh;
+    background: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sessaofrase {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 33%;
+}
+.sessaofrase h3 {
+    color: #7a5208;
+    width: 55%;
+    text-align: center;
+}
+.sessaoLogo {
+    display: flex;
+    justify-content: center;
+    width: 33%;
+}
+.LogoFooter {
+    width: 100%;
+}
+.mobile {
+    display: none;
+}
+.MapeamentoFooter {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.MapeamentoFooter ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: .8rem;
+    
+}
+.LinkSite a {
+    font-size: 1.2rem;
+}

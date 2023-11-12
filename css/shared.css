@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+/*Header*/
+    :root {
+        --bar-width: 35px;
+        --bar-height: 4px;
+        --hamburger-gap: 5px;
+        --foreground: #7a5208;
+        --background: #fff;
+        --animation-timig: 200ms ease-in-out;
+        --hamburger-height: calc(var(--bar-height)*3 + var(--hamburger-gap)* 2);
+    }
+/*Header*/
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 3rem 0px 3rem;
+    background: url(https://i.pinimg.com/564x/14/21/7f/14217fb3a995976f80f900b2317d5c30.jpg);
+}
